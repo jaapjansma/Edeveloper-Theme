@@ -1,0 +1,52 @@
+
+/* ---------- Color Module Styles ----------- */
+html {
+    background-color: #f7f7f7;
+}
+
+h1,
+h2,
+a {
+    color: #ff9900;
+}
+
+#branding {
+    background-color: #ffffff;
+}
+
+#header,
+#footer-wrapper {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+#header a,
+#footer-wrapper a {
+    color: #ffffff;
+}
+
+#main-menu-links a:hover,
+#main-menu-links a:focus,
+#main-menu-links li a:active,
+#main-menu-links li a.active {
+  background: #f7f7f7;
+  color: #ff9900;
+}
+
+#sidebar-first .block .content,
+#sidebar-second .block .content, 
+#content .views-row,
+#content .block-webform .content,
+#content .content .content {
+    background-color: #ffffff;
+    color: #666666;
+}
+
+.views-field-field-tags a {
+    color: #666666;
+}
+
+#footer-wrapper .block > h2 {
+    color: #a9a9a9;
+    color: rgba(255,255,255, 0.5);
+}

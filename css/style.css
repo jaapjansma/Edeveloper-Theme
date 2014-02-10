@@ -1,0 +1,163 @@
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+
+/* --------------- Main Menu ------------ */
+
+#main-menu {
+  clear: both;
+  position: absolute;
+  bottom: 0px;
+}
+#main-menu-links {
+  margin: 0;
+  padding: 0px;
+}
+#main-menu-links li {
+  float: left; /* LTR */
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+#main-menu-links a {
+  float: left; /* LTR */
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  -khtml-border-radius-topleft: 4px;
+  -khtml-border-radius-topright: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* ---------------- Tags en expertise in blokken ----------------- */
+.sidebar .views-field-field-expertise .field-content a,
+.sidebar .views-field-field-tags .field-content a {
+  background: #ccc;
+  color: #fff;
+  border: none;
+  padding: 0px 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 30px;
+  line-height: 30px;
+  margin: 5px;
+}
+
+/* ---------------- Buttons    ---------------- */
+
+input.form-submit,
+a.button {
+  background: #ccc;
+  color: #fff;
+  border: none;
+  padding: 0px 4px;
+  display: block;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 30px;
+  line-height: 30px;
+}
+a.button:link,
+a.button:visited,
+a.button:hover,
+a.button:focus,
+a.button:active {
+  text-decoration: none;
+}
+
+/* -------------- Form Elements   ------------- */
+input {
+  margin: 2px 0;
+  padding: 4px;
+}
+textarea {
+  line-height: 1.5;
+}
+textarea.form-textarea,
+select.form-select {
+  padding: 4px;
+}
+input.form-text,
+textarea.form-textarea,
+select.form-select {
+  border: 1px solid #ccc;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input.form-submit:hover,
+input.form-submit:focus {
+  background: #dedede;
+}
+.form-item {
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+.form-type-radio label,
+.form-type-checkbox label {
+  margin-left: 4px;
+}
+.form-type-radio .description,
+.form-type-checkbox .description {
+  margin-left: 2px;
+}
+.form-actions {
+  padding-top: 10px;
+}
+
+/* Disabled form elements */
+input.form-button-disabled,
+input.form-button-disabled:hover,
+input.form-button-disabled:focus,
+input.form-button-disabled:active,
+.form-disabled input,
+.form-disabled select,
+.form-disabled textarea {
+  background: #ededed;
+  border-color: #bbb;
+  color: #717171;
+}
+.form-disabled .grippie {
+  background-color: #ededed;
+  border-color: #bbb;
+}
+.form-disabled label {
+  color: #717171;
+}
+
+/* Animated throbber */
+html.js input.form-autocomplete {
+  background-position: 100% 4px; /* LTR */
+}
+html.js input.throbbing {
+  background-position: 100% -16px; /* LTR */
+}
+
+/* ------------ Other inherited stykes ----------------*/
+div.messages {
+    margin: 10px;
+}

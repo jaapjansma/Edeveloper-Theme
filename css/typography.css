@@ -1,0 +1,16 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#footer-wrapper .block > h2,
+.sidebar .block > h2,
+#page-title,
+#content .region-content > .block > h2 {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin: 10px 0px 10px 0px;
+}
