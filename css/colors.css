@@ -47,6 +47,28 @@ a {
 }
 
 #footer-wrapper .block > h2 {
+    background-color: #666666;
     color: #a9a9a9;
     color: rgba(255,255,255, 0.5);
+}
+
+.sidebar .block > h2,
+#page-title,
+#content .region-content > .block > h2 {
+    background-color: #f6f6f6;
+    color: #ff9900;
+}
+
+/*----------------- Primary tabs ----------------------*/
+ul.primary.tabs a {
+    color: #ff9900;
+    background-color: #f6f6f6;
+}
+ul.primary.tabs li.active a {
+    color: #666666;
+    background-color: #ff9900;
+}
+ul.primary.tabs li a:hover {
+    color: #666666;
+    background-color: #ffffff;
 }

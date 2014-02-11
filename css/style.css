@@ -157,7 +157,84 @@ html.js input.throbbing {
   background-position: 100% -16px; /* LTR */
 }
 
+/* description */
+.form-item .description {
+    font-style: italic;
+    font-size: 12px;
+    color: #b6b6b6;
+}
+
 /* ------------ Other inherited stykes ----------------*/
 div.messages {
     margin: 10px;
+}
+/*----------------- Primary tabs ----------------------*/
+ul.primary.tabs {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+ul.primary.tabs a {
+    border: none;
+    display: block;
+    padding: 0px 50px 0px 50px;
+    margin: 0px 10px 0px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    float: left;
+}
+ul.primary.tabs li.active a {
+    border: none;
+}
+
+/* ------------------- Submenu ----------------------------- */
+.sidebar .menu {
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar .menu li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+.sidebar .menu li a {
+    color: #666666;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 41px;
+    font-size: 16px;
+}
+.sidebar .menu li.last a {
+    border-bottom: none;
+}
+.sidebar .menu li a:hover {
+    text-decoration: none;
+}
+
+/* ---------------- slashes after heading ----------------*/
+#footer-wrapper .block > h2,
+.sidebar .block > h2,
+#page-title,
+#content .region-content > .block > h2 {
+    line-height: 20px;
+    margin: 10px 0px 10px 0px;
+    padding-right: 10px;
+    display: inline-block;
+    z-index: 1;
+}
+
+#footer-wrapper .block > h2:after, 
+.sidebar .block > h2:after, 
+#page-title:after, 
+#content .region-content > .block > h2:after {
+    display: block;
+    background: url('../images/slash-orange.png') repeat-x transparent center right;
+    height: 20px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 10px;
+    z-index: -1;
 }
