@@ -221,20 +221,21 @@ ul.primary.tabs li.active a {
     line-height: 20px;
     margin: 10px 0px 10px 0px;
     padding-right: 10px;
-    display: inline-block;
+    position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 #footer-wrapper .block > h2:after, 
 .sidebar .block > h2:after, 
 #page-title:after, 
 #content .region-content > .block > h2:after {
-    display: block;
-    background: url('../images/slash-orange.png') repeat-x transparent center right;
+    font-weight: normal;
     height: 20px;
     width: 100%;
-    content: "";
+    content: "/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / ";
     position: absolute;
-    top: 10px;
-    z-index: -1;
+    top: 0px;
+    margin-left: 10px;
+    overflow: hidden;
 }

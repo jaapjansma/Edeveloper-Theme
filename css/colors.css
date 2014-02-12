@@ -52,10 +52,21 @@ a {
     color: rgba(255,255,255, 0.5);
 }
 
+#footer-wrapper .block > h2:after {
+    color: #a9a9a9;
+    color: rgba(255,255,255, 0.5);
+}
+
 .sidebar .block > h2,
 #page-title,
 #content .region-content > .block > h2 {
     background-color: #f6f6f6;
+    color: #ff9900;
+}
+ 
+.sidebar .block > h2:after, 
+#page-title:after, 
+#content .region-content > .block > h2:after {
     color: #ff9900;
 }
 
