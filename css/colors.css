@@ -33,6 +33,11 @@ a {
   color: #ff9900;
 }
 
+#page-title {
+    background-color: #ffffff;
+    color: #ff9900;
+}
+
 #sidebar-first .block .content,
 #sidebar-second .block .content, 
 #content .views-row,
@@ -58,30 +63,28 @@ a {
 }
 
 .sidebar .block > h2,
-#page-title,
 #content .region-content > .block > h2 {
     background-color: #f6f6f6;
     color: #ff9900;
 }
  
 .sidebar .block > h2:after, 
-#page-title:after, 
 #content .region-content > .block > h2:after {
     color: #ff9900;
 }
 
 /*----------------- Primary tabs ----------------------*/
 ul.primary.tabs a {
-    color: #ff9900;
-    background-color: #f6f6f6;
+    color: #ffffff;
+    background-color: #666666;
 }
 ul.primary.tabs li.active a {
     color: #666666;
-    background-color: #ff9900;
+    background-color: #ffffff;
 }
 ul.primary.tabs li a:hover {
     color: #666666;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
 }
 
 /* ---------------- Tags en expertise in blokken ----------------- */
@@ -101,3 +104,8 @@ ul.primary.tabs li a:hover {
     background-color: #666666;
     color: #ff9900;
 }
+
+/* ----------- Citaat op homepage -------------------------*/
+#block-views-citaat-block {
+    color: #666666;
+}    

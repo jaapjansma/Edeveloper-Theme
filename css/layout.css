@@ -118,9 +118,17 @@ body  {
     border-top: 1px solid #f7f7f7;
     padding-top: 30px;
 }
-#content .block-webform .content,
-#content .content .content {
+
+#content #page-title {
+    margin: 0px;
+    padding: 20px 50px 0px 50px;
+}
+#content .block-webform .content {
     padding: 40px 50px;
+    margin: 0px 0px 20px 0px;
+}
+#content .content .content {
+    padding: 20px 50px 40px 50px;
     margin: 0px 0px 20px 0px;
 }
 #sidebar-first .block .content,

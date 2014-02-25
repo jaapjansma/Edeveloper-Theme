@@ -179,11 +179,16 @@ html.js input.throbbing {
 div.messages {
     margin: 10px;
 }
+#page-title {
+    display: block;
+    clear: both;
+}
 /*----------------- Primary tabs ----------------------*/
 ul.primary.tabs {
     margin: 0px;
     border: none;
     padding: 0px;
+    display: block;
 }
 ul.primary.tabs a {
     border: none;
@@ -200,6 +205,9 @@ ul.primary.tabs li.active a {
 }
 
 /* ------------------- Submenu ----------------------------- */
+.sidebar #block-system-main-menu h2 {
+    display: none;
+}
 .sidebar .menu {
     margin: 0px;
     padding: 0px;
@@ -227,7 +235,6 @@ ul.primary.tabs li.active a {
 /* ---------------- slashes after heading ----------------*/
 #footer-wrapper .block > h2,
 .sidebar .block > h2,
-#page-title,
 #content .region-content > .block > h2 {
     line-height: 20px;
     margin: 10px 0px 10px 0px;
@@ -239,7 +246,6 @@ ul.primary.tabs li.active a {
 
 #footer-wrapper .block > h2:after, 
 .sidebar .block > h2:after, 
-#page-title:after, 
 #content .region-content > .block > h2:after {
     font-weight: normal;
     height: 20px;
@@ -249,4 +255,52 @@ ul.primary.tabs li.active a {
     top: 0px;
     margin-left: 10px;
     overflow: hidden;
+}
+
+/* ----------- Citaat op homepage -------------------------*/
+#block-views-citaat-block {
+    position: relative;
+    width: 100%;
+    height: 310px;
+    margin: 35px 10px;
+}
+
+#block-views-citaat-block h2 {
+    display: none; /* hide title */
+}
+
+#block-views-citaat-block blockquote {
+    z-index: 3;
+    background: transparent url('../images/featured.png') no-repeat top left;
+    height: 310px;
+    line-height: 310px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 690px;
+    position: relative;   
+}
+
+#block-views-citaat-block blockquote p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#block-views-citaat-block blockquote cite {
+    //font-size: 16px;    
+    line-height: 30px;
+}
+
+#block-views-citaat-block img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 710px;
+    height: 310px;
+    z-index: 1;
+}
+
+#block-views-citaat-block .view-content span.citaat,
+#block-views-citaat-block .view-content em {
+    position: relative;
+    z-index: 2;
 }

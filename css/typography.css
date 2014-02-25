@@ -4,9 +4,15 @@ body {
     line-height: 1.5;
 }
 
+#page-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
 #footer-wrapper .block > h2,
 .sidebar .block > h2,
-#page-title,
 #content .region-content > .block > h2 {
     font-weight: bold;
     font-size: 14px;
@@ -38,4 +44,15 @@ body {
   font-size: 11px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+/* ----------- Citaat op homepage -------------------------*/
+#block-views-citaat-block blockquote {
+    font-weight: 300; /* light */
+    font-size: 20px;
+    font-style: italic;
+}
+
+#block-views-citaat-block blockquote cite {
+    font-size: 16px;
 }
