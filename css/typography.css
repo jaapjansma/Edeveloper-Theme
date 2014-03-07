@@ -56,3 +56,15 @@ body {
 #block-views-citaat-block blockquote cite {
     font-size: 16px;
 }
+/* --------------- Sitemap in footer ------------ */
+#footer-columns .block-menu-block li {
+    font-size: 16px;
+}
+#footer-columns .block-menu-block li li {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#footer-columns .block-menu-block a:hover {
+    text-decoration: none;
+}

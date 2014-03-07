@@ -19,3 +19,20 @@ function edeveloper_process_page(&$variables) {
   }
 }
 
+
+/**
+ * Style the breadcrumb
+ * 
+ * @param type $variables
+ * @return type
+ */
+function edeveloper_breadcrumb($variables) {
+  $sep = ' <span class="seperator">&rsaquo;</span> ';
+  if (count($variables['breadcrumb']) > 0) {
+    return implode($sep, $variables['breadcrumb']);
+  }
+  else {
+    return t("Home");
+  }
+}
+

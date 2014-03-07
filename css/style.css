@@ -36,6 +36,46 @@ a:focus {
   border-top-right-radius: 4px;
 }
 
+#main-menu-links .first a {
+    margin-left: 0px;
+}
+
+/* --------------- Sitemap in footer ------------ */
+
+#footer-columns .block-menu-block ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer-columns .block-menu-block li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#footer-columns .block-menu-block li li {
+    margin-left: 20px;
+}
+
+/* --------------- Breadcrumb ------------ */
+#breadcrumb {
+    margin: 20px 10px 10px 10px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ff9900;
+}
+
+#breadcrumb a {
+    margin: 0px;
+    display: inline-block;
+    color: #999;
+}
+
+#breadcrumb span.seperator {
+    margin: 0px 5px;
+    color: #999;
+    font-size: 16px;
+}
+
 /* ---------------- Tags en expertise in blokken ----------------- */
 .views-field-field-tags .views-label {
     line-height: 30px;
