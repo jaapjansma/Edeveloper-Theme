@@ -25,6 +25,10 @@ a {
     color: #ffffff;
 }
 
+#main-menu-links a {
+    border-bottom: 1px solid #999;
+}
+
 #main-menu-links a:hover,
 #main-menu-links a:focus,
 #main-menu-links li a:active,
@@ -109,3 +113,16 @@ ul.primary.tabs li a:hover {
 #block-views-citaat-block {
     color: #666666;
 }    
+
+/* --------------- Breadcrumb ------------ */
+#breadcrumb {
+    color: #ff9900;
+}
+
+#breadcrumb a {
+    color: #999;
+}
+
+#breadcrumb span.seperator {
+    color: #999;
+}

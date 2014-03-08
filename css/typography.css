@@ -68,3 +68,13 @@ body {
 #footer-columns .block-menu-block a:hover {
     text-decoration: none;
 }
+
+/* --------------- Breadcrumb ------------ */
+#breadcrumb {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#breadcrumb span.seperator {
+    font-size: 16px;
+}

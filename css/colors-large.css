@@ -1,0 +1,16 @@
+/* 
+    Created on : Mar 8, 2014, 4:36:34 PM
+    Author     : jaap
+*/
+
+#main-menu-links a {
+    border-bottom: none;
+}
+
+#main-menu-links a:hover,
+#main-menu-links a:focus,
+#main-menu-links li a:active,
+#main-menu-links li a.active {
+  background: #f7f7f7;
+  color: #ff9900;
+}

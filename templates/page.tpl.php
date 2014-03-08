@@ -87,7 +87,7 @@
 ?>
 <div id="page-wrapper"><div id="page">
     <div id="page_top" class=""><div class="section">
-          <?php print render($page['page_top']); ?>
+          <?php print render($page['top']); ?>
     </div></div>
     
     <div id="branding" class=""><div class="section">
@@ -165,6 +165,12 @@
     <?php endif; ?>
 
   </div></div> <!-- /.section, /#header -->
+  
+    <?php if ($breadcrumb): ?>
+      <div id="breadcrumb"><div class="section">
+          <div class="content"><?php print $breadcrumb; ?></div>
+      </div></div>
+    <?php endif; ?>
 
   <?php if ($messages): ?>
     <div id="messages"><div class="section clearfix">
@@ -179,10 +185,6 @@
   <?php endif; ?>
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
-
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
 
     <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section">

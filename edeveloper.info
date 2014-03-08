@@ -6,14 +6,17 @@ stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
 stylesheets[all][] = css/typography.css
+stylesheets[all and (min-width: 1120px][] = css/layout-large.css
+stylesheets[all and (min-width: 1120px][] = css/style-large.css
+stylesheets[all and (min-width: 1120px][] = css/colors-large.css
+
 stylesheets[print][] = css/print.css
 
+regions[top] = Page top
 regions[header] = Header
-regions[help] = Help
-regions[page_top] = Page top
-regions[page_bottom] = Page bottom
 
 regions[featured] = Featured
+regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = Sidebar first
 regions[sidebar_second] = Sidebar second

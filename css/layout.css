@@ -1,117 +1,43 @@
+/* 
+    Created on : Mar 8, 2014, 11:14:32 AM
+    Author     : jaap
+*/
+
+/* 
+ * Standard stylesheet for mobile first
+ *
+ */
 
 /* ---------- Basic Layout Styles ----------- */
 
 html,
 body  {
-  height: 100%;
+  width: 100%;
   margin: 0px;
   padding: 0px;
 }
-#page-wrapper {
-  min-height: 100%;
-  min-width: 100%;
-  overflow: hidden;
+
+img {
+    width: 100%;
 }
-#page_top {
-    min-height: 40px;
-    overflow: hidden;
+
+#content .content .content {
+    padding: 20px 10px 40px 10px;
+    margin: 0px 0px 20px 0px;
 }
+
+#page_top,
 #branding {
-    min-height: 85px;
-    overflow: hidden;
-}
-#header {
-    overflow: hidden;
-    min-height: 80px;
-    position: relative;
-}
-#page_top div.section,
-#branding div.section,
-#header div.section,
-#featured div.section,
-#messages div.section,
-#main,
-#triptych,
-#footer-columns,
-#footer {
-  width: 1120px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.region-header {
-}
-.with-secondary-menu .region-header {
-}
-.without-secondary-menu .region-header {
-}
-#secondary-menu {
-}
-#sidebar-first,
-#sidebar-second,
-.region-triptych-first,
-.region-triptych-middle,
-.region-triptych-last,
-.region-footer-firstcolumn,
-.region-footer-secondcolumn,
-.region-footer-thirdcolumn,
-.region-footer-fourthcolumn {
-  display: inline;
-  float: left; /* LTR */
-  position: relative;
-}
-.two-sidebars #content,
-.one-sidebar #content {
-  width: 700px;
-  margin: 10px;
-  float: right;
-}
-.no-sidebars #content {
-  width: 1100px;
-  float: none;
-  margin: 10px;
-}
-#sidebar-first,
-#sidebar-second {
-  width: 380px;
-  margin: 10px;
-}
-#main-wrapper {
-}
-#content .section,
-.sidebar .section {
-}
-#breadcrumb {
-}
-.region-triptych-first,
-.region-triptych-middle,
-.region-triptych-last {
-}
-#footer-wrapper {
-}
-.region-footer-firstcolumn,
-.region-footer-secondcolumn,
-.region-footer-thirdcolumn{
-    width: 300px;
     margin: 0px 10px;
 }
-.region-footer-firstcolumn {
-    margin-right: 50px;
-}
-.region-footer-secondcolumn {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.region-footer-thirdcolumn {
-    margin-left: 50px;
-}
-#footer {
-}
+
+
 #content .views-row {
     padding: 40px 0px;
     margin: 0px 0px 20px 0px;
 }
 #content .views-row .views-field {
-    padding: 0px 50px;
+    padding: 0px 10px;
 }
 #content .views-row .views-field-field-tags {
     margin-top: 30px;
@@ -121,21 +47,26 @@ body  {
 
 #content #page-title {
     margin: 0px;
-    padding: 20px 50px 0px 50px;
-}
+    padding: 20px 10px 0px 10px;
+}    
 #content .block-webform .content {
-    padding: 40px 50px;
+    padding: 40px 10px;
     margin: 0px 0px 20px 0px;
 }
 #content .content .content {
-    padding: 20px 50px 40px 50px;
+    padding: 20px 10px 40px 10px;
     margin: 0px 0px 20px 0px;
 }
 #sidebar-first .block .content,
 #sidebar-second .block .content {
-    padding: 40px;
+    padding: 40px 10px;
     margin: 0px 0px 20px 0px;
 }
+
 #footer-wrapper {
     padding: 30px 0px;
+}
+
+#footer-wrapper .block .content {
+    margin: 10px;
 }
