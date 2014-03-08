@@ -39,10 +39,6 @@ img {
     margin: 15px 10px 35px 10px;
 }
 
-#block-views-citaat-block h2 {
-    display: none; /* hide title */
-}
-
 #block-views-citaat-block blockquote {
     z-index: 3;
     background: transparent url('../images/featured.png') no-repeat top left;
@@ -60,7 +56,6 @@ img {
     line-height: 30px;
 }
 #block-views-citaat-block blockquote cite {
-    //font-size: 16px;    
     line-height: 30px;
 }
 

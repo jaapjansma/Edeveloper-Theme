@@ -36,6 +36,9 @@ img {
     padding: 40px 0px;
     margin: 0px 0px 20px 0px;
 }
+#content .content-list .views-row-first {
+    margin-top: 20px;
+}
 #content .views-row .views-field {
     padding: 0px 10px;
 }

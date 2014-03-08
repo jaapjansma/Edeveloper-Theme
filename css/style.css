@@ -112,11 +112,11 @@ a:focus {
     text-decoration: none;
 }
 
-.sidebar .views-field-field-expertise .views-label,
+.sidebar .views-field-field-expertise-reference .views-label,
 .sidebar .views-field-field-tags .views-label {
 }
 
-.sidebar .views-field-field-expertise .field-content a,
+.sidebar .views-field-field-expertise-reference .field-content a,
 .sidebar .views-field-field-tags .field-content a {
   border: none;
   display: inline-block;
@@ -126,7 +126,7 @@ a:focus {
   margin: 5px;
 }
 
-.sidebar .views-field-field-expertise .field-content a:hover,
+.sidebar .views-field-field-expertise-reference .field-content a:hover,
 .sidebar .views-field-field-tags .field-content a:hover {
     text-decoration: none;
 }

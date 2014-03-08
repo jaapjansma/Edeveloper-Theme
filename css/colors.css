@@ -97,13 +97,13 @@ ul.primary.tabs li a:hover {
     color: #ff9900;
 }
 
-.sidebar .views-field-field-expertise .field-content a,
+.sidebar .views-field-field-expertise-reference .field-content a,
 .sidebar .views-field-field-tags .field-content a {
   background: #ccc;
   color: #fff;
 }
 
-.sidebar .views-field-field-expertise .field-content a:hover,
+.sidebar .views-field-field-expertise-reference .field-content a:hover,
 .sidebar .views-field-field-tags .field-content a:hover {
     background-color: #666666;
     color: #ff9900;
