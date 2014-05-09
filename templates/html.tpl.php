@@ -46,7 +46,7 @@
 <html lang="<?php print $language->language; ?>" version="HTML+RDFa 1.1" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
-	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php print $head_title; ?></title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800' rel='stylesheet' type='text/css'>
   <?php print $styles; ?>
